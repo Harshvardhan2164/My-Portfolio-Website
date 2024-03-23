@@ -27,6 +27,7 @@
 .home__title{
     font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
+    color: red;
 }
 
 .home__hand{
@@ -41,6 +42,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    /* color: red; */
 }
 
 .home__subtitle::before{

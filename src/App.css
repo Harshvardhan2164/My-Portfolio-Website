@@ -8,11 +8,13 @@
     /* Colors */
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-    --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
-    --container-color: #fff;
+    --title-color: hsl(var(--hue), var(--sat), 99%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 30%);
+    --title-color-black: black;
+    --text-color: hsl(var(--hue), var(--sat), 95%);
+    --body-color: hsl(var(--hue), var(--sat), 6%);
+    --container-color: white;
+    --container-color-dark: grey;
 
     /* Font */
     --body-font: "Poppins", sans-serif;
@@ -122,6 +124,7 @@ img{
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: 4rem;
+    color: var(--title-color);
 }
 
 .section__title,
@@ -144,7 +147,7 @@ img{
 /* Buttons */
 .button{
     display: inline-block;
-    background-color: var(--title-color);
+    background-color: var(--title-color-dark);
     color: var(--container-color);
     padding: 1.25rem 2rem;
     border-radius: 1rem;
@@ -152,12 +155,13 @@ img{
 }
 
 .button:hover{
-    background-color: var(--title-color-dark);
-    color: white;
+    background-color: var(--title-color);
+    color: var(--title-color-black);
 }
 
 .button__icon{
     margin-left: var(--mb-0-5);
+    /* color: var(--container-color-dark); */
 }
 
 .button--flex{
