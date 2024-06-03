@@ -10,7 +10,7 @@ const Data = () => {
 
         <h3 className="home__subtitle">Tech Enthusiast</h3>
         <p className="home__description">
-            I'm a passionate and dedicated Tech guy with knowledge of Data Analytics and Front-End Development based in Raipur.
+            I'm a passionate and dedicated Tech guy with knowledge of Data Analytics, Machine Learning and Web Development based in Raipur.
         </p>
 
         <a href="#contact" className="button button--flex">
