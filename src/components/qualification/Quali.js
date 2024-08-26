@@ -34,7 +34,7 @@ const Quali = () => {
                             <span className="qualification__subtitle">Dr. SPM International Institute of Information Technology, Naya Raipur
                             </span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2026 
+                                <i className="uil uil-calendar-alt"></i> 2022 - Present 
                             </div>
                         </div>
 
@@ -56,7 +56,7 @@ const Quali = () => {
                             <h3 className="qualification__title">12<sup>th</sup> CBSE</h3>
                             <span className="qualification__subtitle">Ryan International School, Raipur</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022
+                                <i className="uil uil-calendar-alt"></i> 2021 - 2022
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Quali = () => {
                             <h3 className="qualification__title">10<sup>th</sup> CBSE</h3>
                             <span className="qualification__subtitle">Bharatiya Vidya Bhavan's R.K Sarda Vidya Mandir, Raipur</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2020
+                                <i className="uil uil-calendar-alt"></i> 2019 - 2020
                             </div>
                         </div>
 
@@ -112,10 +112,10 @@ const Quali = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">DSA</h3>
+                            <h3 className="qualification__title">Machine Learning</h3>
                             <span className="qualification__subtitle">Self-Learner</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2024
+                                <i className="uil uil-calendar-alt"></i> 2023
                             </div>
                         </div>
 
@@ -134,10 +134,10 @@ const Quali = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Machine Learning</h3>
+                            <h3 className="qualification__title">Data Structures</h3>
                             <span className="qualification__subtitle">Self-Learner</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2023
+                                <i className="uil uil-calendar-alt"></i> 2024
                             </div>
                         </div>
                     </div>

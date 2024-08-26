@@ -15,6 +15,10 @@ const Social = () => {
             <i class="uil uil-github-alt"></i>
         </a>
 
+        <a href="https://www.kaggle.com/harshvardhan21" className="home__social-icon" target="_blank">
+            <i class="uil uil-link"></i>
+        </a>
+
     </div>
   )
 }
