@@ -1,5 +1,5 @@
 # Visit the Website
-https://harshvardhan2164.github.io/My-Portfolio-Website/
+<a href="https://harshvardhan2164.github.io/My-Portfolio-Website/" target="_blank">Portfolio Website</a>
 
 # Getting Started with Create React App
 
