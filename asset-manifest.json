@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/My-Portfolio-Website/static/css/main.cb0586f2.css",
-    "main.js": "/My-Portfolio-Website/static/js/main.807ee5c3.js",
+    "main.js": "/My-Portfolio-Website/static/js/main.5a2ad13b.js",
     "static/js/787.92ab967b.chunk.js": "/My-Portfolio-Website/static/js/787.92ab967b.chunk.js",
     "static/media/profile.jpg": "/My-Portfolio-Website/static/media/profile.97bbf38defdb79f7533f.jpg",
-    "static/media/Harshvardhan_Sharma_Resume.pdf": "/My-Portfolio-Website/static/media/Harshvardhan_Sharma_Resume.0a440e1ab34764143d17.pdf",
+    "static/media/My_Resume.pdf": "/My-Portfolio-Website/static/media/My_Resume.16c3748b91d906e4613d.pdf",
     "index.html": "/My-Portfolio-Website/index.html",
     "main.cb0586f2.css.map": "/My-Portfolio-Website/static/css/main.cb0586f2.css.map",
-    "main.807ee5c3.js.map": "/My-Portfolio-Website/static/js/main.807ee5c3.js.map",
+    "main.5a2ad13b.js.map": "/My-Portfolio-Website/static/js/main.5a2ad13b.js.map",
     "787.92ab967b.chunk.js.map": "/My-Portfolio-Website/static/js/787.92ab967b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb0586f2.css",
-    "static/js/main.807ee5c3.js"
+    "static/js/main.5a2ad13b.js"
   ]
 }
