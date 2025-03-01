@@ -3,7 +3,7 @@ import React from 'react'
 const Frontend = () => {
   return (
     <div className="skills__content"> 
-        <h3 className="skills__title">Frontend Developent and Programming</h3>
+        <h3 className="skills__title">Web Developent and Programming</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -11,7 +11,7 @@ const Frontend = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">HTML</h3>
+                    <h3 className="skills_name">HTML/CSS</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -20,7 +20,7 @@ const Frontend = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">CSS</h3>
+                    <h3 className="skills_name">Node.js</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -42,6 +42,15 @@ const Frontend = () => {
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
+
+                <div className="skills__data">
+                  <i class='bx bx-badge-check' ></i>
+
+                  <div>
+                    <h3 className="skills_name">Git</h3>
+                    <span className="skills__level">Intermediate</span>
+                  </div>
+                </div>
             </div>
 
             <div className="skills__group">
@@ -58,7 +67,7 @@ const Frontend = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Bootstrap</h3>
+                    <h3 className="skills_name">TailwindCSS</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -67,8 +76,8 @@ const Frontend = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Material UI</h3>
-                    <span className="skills__level">Basic</span>
+                    <h3 className="skills_name">Linux</h3>
+                    <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
 
@@ -78,6 +87,15 @@ const Frontend = () => {
                   <div>
                     <h3 className="skills_name">C++</h3>
                     <span className="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <i class='bx bx-badge-check' ></i>
+
+                  <div>
+                    <h3 className="skills_name">Docker</h3>
+                    <span className="skills__level">Basic</span>
                   </div>
                 </div>
             </div>
