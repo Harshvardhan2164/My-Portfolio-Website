@@ -51,6 +51,15 @@ const Frontend = () => {
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
+
+                <div className="skills__data">
+                  <i class='bx bx-badge-check' ></i>
+
+                  <div>
+                    <h3 className="skills_name">MongoDB</h3>
+                    <span className="skills__level">Intermediate</span>
+                  </div>
+                </div>
             </div>
 
             <div className="skills__group">
@@ -96,6 +105,15 @@ const Frontend = () => {
                   <div>
                     <h3 className="skills_name">Docker</h3>
                     <span className="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <i class='bx bx-badge-check' ></i>
+
+                  <div>
+                    <h3 className="skills_name">PostgreSQL</h3>
+                    <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
             </div>
