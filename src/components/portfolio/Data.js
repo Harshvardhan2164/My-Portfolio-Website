@@ -8,59 +8,78 @@ export const Data = [
     },
     {
         id: 2,
+        title: "Enhancing Genomic Sequence Prediction Through a Fusion of Probabilistic, Recurrent, and Self-Attention Models",
+        description: 
+            "This project implements N-Gram (with Laplace Smoothing), LSTM, and Transformer-based models to predict DNA sequences. It evaluates model performance using perplexity scores and explores deep learning approaches for bioinformatics.",
+        link: <a href="https://github.com/Harshvardhan2164/Power-of-Generative-AI-in-Genomics" target="_blank">Github Link <i class='bx bx-link'></i></a>
+    },
+    {
+        id: 3,
         title: "Applicant Tracking System",
         description: 
             "This enhanced system collects and parses resumes and job descriptions, utilizing NLP to extract key information and standardize data. ML algorithms then employ semantic matching to identify the most relevant candidates, providing accurate resume ranking and scoring. The user interacts with the ATS through a full stack web interface.",
         link: <a href="https://github.com/Harshvardhan2164/Applicant-Tracking-System-Minor-Project.git" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 3,
+        id: 4,
         title: "Social Media Sentiment Analysis",
         description:
             "This project aims to develop a machine learning model for sentiment analysis on social media platforms such as Twitter and YouTube and E-commerce websites like Amazon.",
         link: <a href="https://github.com/Harshvardhan2164/Social-Media-Sentiment-Analysis-Minor-Project" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 4,
+        id: 5,
         title: "Game Theory Project: Multi Agent Reinforcement Learning",
         description:
             "This project explores the application of Multi-Agent Reinforcement Learning (MARL) techniques in cooperative hunting scenarios. Specifically, it aims to develop intelligent agents capable of collaborating to hunt down prey efficiently. The project leverages concepts from game theory to design and train agents that exhibit cooperative behaviors, ultimately optimizing hunting strategies in a simulated environment.",
         link: <a href="https://github.com/Harshvardhan2164/Game-Theory-Project" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 5,
+        id: 6,
         title: "Supply Chain Management using Blockchain Technology",
-        description: "",
+        description: "A full-stack decentralized supply chain management system using Solidity, Node.js, MongoDB, and React. It enables seamless tracking of medicines through various stages from manufacturing to retail with participant roles like Supplier, Manufacturer, Distributor, and Retailer.",
         link: <a href="https://github.com/Harshvardhan2164/Supply-Chain-Management-using-Blockchain-Technology" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 6,
+        id: 7,
+        title: "ERP System for MSE and MSME",
+        description: "This is a full-stack ERP (Enterprise Resource Planning) system designed for micro, small and medium-sized businesses. It helps manage various aspects of business operations, including inventory, sales, HR, accounting, inquiries, and quotations.",
+        link: <a href="https://github.com/Harshvardhan2164/ERP-System-for-MSE-and-MSME" target="_blank">Github Link <i class='bx bx-link'></i></a>
+    },
+    {
+        id: 8,
+        title: "Time Series Analysis on Energy Consumption using LSTM and GRU",
+        description: "Energy consumption forecasting is crucial for efficient power management, grid stability, and energy resource planning. This project leverages Time Series Analysis techniques to predict energy consumption using GRU and LSTM models. By utilizing the PJM Interconnection LLC Energy Consumption Dataset, which records hourly power usage.",
+        link: <a href="https://github.com/Harshvardhan2164/Time-Series-Analysis-on-Energy-Consumption" target="_blank">Github Link <i class='bx bx-link'></i></a>
+    },
+    {
+        id: 9,
         title: "End to End MLOPS Project",
         description: "This project implements an End-to-End MLOps Pipeline for predicting wine quality using MLflow for experiment tracking and model management.",
         link: <a href="https://github.com/Harshvardhan2164/MLOPS-Project" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 7,
+        id: 10,
         title: "Social Media Post Generator Tool",
         description: "This is a simple tool that helps in creating new posts based on the writing style in related posts. It uses Llama-3.3-versatile from Groq Cloud using an API Key to generate posts based on the user's input.",
         link: <a href="https://github.com/Harshvardhan2164/Social-Media-Post-Generator-Tool" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 8,
+        id: 11,
         title: "Weatherio: Real-Time Weather App",
         description:
             "The Real-Time Weather App provides users with comprehensive weather information using the OpenWeather API. The app offers current weather conditions, hourly weather updates, sunrise and sunset times, and a 5-day weather forecast.",
         link: <a href="https://github.com/Harshvardhan2164/Weatherio-Real-Time-Weather-App" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 9,
+        id: 12,
         title: "Data Science Projects using Streamlit",
         description:
             "This repository contains a collection of data science projects built using the Streamlit library. Each project leverages Streamlit's interactive web app capabilities to present data insights, visualizations, and analyses in a user-friendly manner.",
         link: <a href="https://github.com/Harshvardhan2164/Data-Science-Projects-using-Streamlit" target="_blank">Github Link <i class='bx bx-link'></i></a>
     },
     {
-        id: 10,
+        id: 13,
         title: "House Price Prediction Model",
         description:
             "This project is about finalizing the appropriate house for an individual inclined based on their conditions and requirement. It uses the fundamental Machine Learning perspective for EDA and Data Visualization. It includes an introduction to Linear Regression for continuous data evaluation and modeling using algorithms.",
