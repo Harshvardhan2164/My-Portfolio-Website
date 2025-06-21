@@ -137,7 +137,7 @@ const Quali = () => {
                             <h3 className="qualification__title">Data Structures</h3>
                             <span className="qualification__subtitle">Self-Learner</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2024
+                                <i className="uil uil-calendar-alt"></i> 2023
                             </div>
                         </div>
                     </div>

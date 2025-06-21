@@ -2,14 +2,53 @@ import React from 'react';
 import './portfolio.css';
 import { Data } from './Data';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import { Pagination } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Portfolio = () => {
   return (
+    // <div id="portfolio">
+    //     <section className="portfolio container section">
+    //         <h2 className="section__title">Portfolio</h2>
+    //         <span className="section__subtitle">My Projects</span>
+            
+    //         <Swiper className="portfolio__container"
+    //         loop = {true}
+    //         grabCursor = {true}
+    //         spaceBetween={24}
+    //         pagination={{
+    //           clickable: true,
+    //         }}
+    //         breakpoints={{
+    //           576: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 20,
+    //           },
+    //           768: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 40,
+    //           }
+    //         }}
+    //         modules={[Pagination]}
+    //         >
+    //             {Data.map(({id, title, description, link}) => {
+    //                 return (
+    //                     <SwiperSlide className="portfolio__card" key={id}>
+    //                         <h3 className="portfolio__name">{title}</h3>
+    //                         <p className="portfolio__description">{description}</p>
+    //                         <span className="portfolio__link">{link}</span>
+    //                     </SwiperSlide>
+    //                 )
+    //             })}
+    //         </Swiper>
+    //     </section>
+    // </div>
     <div id="portfolio">
         <section className="portfolio container section">
             <h2 className="section__title">Portfolio</h2>
@@ -19,8 +58,17 @@ const Portfolio = () => {
             loop = {true}
             grabCursor = {true}
             spaceBetween={24}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
             pagination={{
               clickable: true,
+            }}
+            navigation={{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
             }}
             breakpoints={{
               576: {
@@ -32,7 +80,7 @@ const Portfolio = () => {
                 spaceBetween: 40,
               }
             }}
-            modules={[Pagination]}
+            modules={[Pagination, Navigation, Autoplay]}
             >
                 {Data.map(({id, title, description, link}) => {
                     return (
@@ -43,6 +91,10 @@ const Portfolio = () => {
                         </SwiperSlide>
                     )
                 })}
+                
+                {/* Custom Navigation Arrows */}
+                <div className="swiper-button-next portfolio__nav-arrow"></div>
+                <div className="swiper-button-prev portfolio__nav-arrow"></div>
             </Swiper>
         </section>
     </div>
