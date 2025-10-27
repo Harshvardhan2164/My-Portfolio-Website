@@ -60,6 +60,14 @@
     margin-bottom: var(--mb-0-5);
 }
 
+.qualification__desc{
+    display: inline-block;
+    max-width: 700px;
+    width: 100%;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
 .qualification__calendar{
     font-size: var(--small-font-size);
     margin-bottom: 1rem;
@@ -95,6 +103,10 @@
     .qualification__container{
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
+    }
+    /* make sure desc fits small/medium screens */
+    .qualification__desc{
+        max-width: 100%;
     }
 }
 

@@ -15,12 +15,13 @@ const Social = () => {
             <i class="uil uil-github-alt"></i>
         </a>
 
-        <a href="https://leetcode.com/u/harshvardhansharma2004" className="home__social-icon" target="_blank">
-            <i class="uil uil-arrow"></i>
-        </a>
+        {/* <a href="https://leetcode.com/u/harshvardhansharma2004" className="home__social-icon" target="_blank">
+            <i class="bxl bx-leetcode"></i>
+            <i class="hgi hgi-stroke hgi-leetcode"></i>
+        </a> */}
 
         <a href="https://www.kaggle.com/harshvardhan21" className="home__social-icon" target="_blank">
-            <i class="uil uil-link"></i>
+            <i class="fa-brands fa-kaggle"></i>
         </a>
 
     </div>

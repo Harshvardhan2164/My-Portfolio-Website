@@ -31,7 +31,7 @@ const Quali = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">B.Tech</h3>
-                            <span className="qualification__subtitle">Dr. SPM International Institute of Information Technology, Naya Raipur
+                            <span className="qualification__subtitle">International Institute of Information Technology (IIIT), Naya Raipur
                             </span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> 2022 - Present 
@@ -80,10 +80,10 @@ const Quali = () => {
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Self-Learner</span>
+                            <h3 className="qualification__title">Internship Trainee</h3>
+                            <span className="qualification__subtitle">Amazon ML Summer School</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2023
+                                <i className="uil uil-calendar-alt"></i> Aug 2025
                             </div>
                         </div>
 
@@ -102,20 +102,30 @@ const Quali = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Data Analytics</h3>
-                            <span className="qualification__subtitle">Self-Learner</span>
+                            <h3 className="qualification__title">Project Intern</h3>
+                            <span className="qualification__subtitle">Proactive Technologies</span>
+                            <div className="qualification__desc">
+                                <ul>
+                                    <li>
+                                        As a Project Intern, I developed a full-stack web application for the firm, leveraging the MERN stack (MongoDB, Express.js, React, Node.js) and Amazon S3 for robust cloud storage.
+                                    </li>
+                                    <li>
+                                        Engineered core e-commerce-like functionalities including Role-Based Access Control (RBAC), real-time order status tracking, comprehensive customer query management, and secure invoice viewing, significantly enhancing post-order customer experience and operational efficiency.
+                                    </li>
+                                </ul>
+                            </div>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2023
+                                <i className="uil uil-calendar-alt"></i> May 2025 - Jun 2025
                             </div>
                         </div>
                     </div>
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Machine Learning</h3>
-                            <span className="qualification__subtitle">Self-Learner</span>
+                            <h3 className="qualification__title">Data Analyst Intern</h3>
+                            <span className="qualification__subtitle">Cloud Counselage</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2023
+                                <i className="uil uil-calendar-alt"></i> Jun 2024 - Jul 2024
                             </div>
                         </div>
 
@@ -125,7 +135,7 @@ const Quali = () => {
                         </div>
                     </div>
 
-                    <div className="qualification__data">
+                    {/* <div className="qualification__data">
                         <div></div>
 
                         <div>
@@ -140,7 +150,7 @@ const Quali = () => {
                                 <i className="uil uil-calendar-alt"></i> 2023
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
