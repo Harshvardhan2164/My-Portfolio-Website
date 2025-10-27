@@ -31,7 +31,7 @@
 
 .qualification__sections{
     display: grid;
-    grid-template-columns: 0.80fr;
+    grid-template-columns: 0fr;
     justify-content: center;
 }
 
@@ -45,8 +45,9 @@
 
 .qualification__data{
     display: grid;
-    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns: 0fr max-content 0fr;
     column-gap: 1.75rem;
+    margin-bottom: var(--mb-0-5);
 }
 
 .qualification__title{
@@ -60,6 +61,12 @@
     margin-bottom: var(--mb-0-5);
 }
 
+.qualification__res{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
 .qualification__desc{
     display: inline-block;
     max-width: 700px;
@@ -70,7 +77,7 @@
 
 .qualification__calendar{
     font-size: var(--small-font-size);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .qualification__rounder{

@@ -13,46 +13,10 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Portfolio = () => {
   return (
-    // <div id="portfolio">
-    //     <section className="portfolio container section">
-    //         <h2 className="section__title">Portfolio</h2>
-    //         <span className="section__subtitle">My Projects</span>
-            
-    //         <Swiper className="portfolio__container"
-    //         loop = {true}
-    //         grabCursor = {true}
-    //         spaceBetween={24}
-    //         pagination={{
-    //           clickable: true,
-    //         }}
-    //         breakpoints={{
-    //           576: {
-    //             slidesPerView: 1,
-    //             spaceBetween: 20,
-    //           },
-    //           768: {
-    //             slidesPerView: 1,
-    //             spaceBetween: 40,
-    //           }
-    //         }}
-    //         modules={[Pagination]}
-    //         >
-    //             {Data.map(({id, title, description, link}) => {
-    //                 return (
-    //                     <SwiperSlide className="portfolio__card" key={id}>
-    //                         <h3 className="portfolio__name">{title}</h3>
-    //                         <p className="portfolio__description">{description}</p>
-    //                         <span className="portfolio__link">{link}</span>
-    //                     </SwiperSlide>
-    //                 )
-    //             })}
-    //         </Swiper>
-    //     </section>
-    // </div>
-    <div id="portfolio">
+    <div id="projects">
         <section className="portfolio container section">
-            <h2 className="section__title">Portfolio</h2>
-            <span className="section__subtitle">My Projects</span>
+            <h2 className="section__title">Projects</h2>
+            <span className="section__subtitle"></span>
             
             <Swiper className="portfolio__container"
             loop = {true}
@@ -92,7 +56,6 @@ const Portfolio = () => {
                     )
                 })}
                 
-                {/* Custom Navigation Arrows */}
                 <div className="swiper-button-next portfolio__nav-arrow"></div>
                 <div className="swiper-button-prev portfolio__nav-arrow"></div>
             </Swiper>
