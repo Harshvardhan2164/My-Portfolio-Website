@@ -84,15 +84,4 @@ const Exp = () => {
   )
 }
 
-{/* <div className="experience__desc">
-                                <ul>
-                                    <li>
-                                        As a Project Intern, I developed a full-stack web application for the firm, leveraging the MERN stack (MongoDB, Express.js, React, Node.js) and Amazon S3 for robust cloud storage.
-                                    </li>
-                                    <li>
-                                        Engineered core e-commerce-like functionalities including Role-Based Access Control (RBAC), real-time order status tracking, comprehensive customer query management, and secure invoice viewing, significantly enhancing post-order customer experience and operational efficiency.
-                                    </li>
-                                </ul>
-                            </div> */}
-
 export default Exp

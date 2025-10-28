@@ -2,12 +2,6 @@
 import './quali.css';
 
 const Quali = () => {
-    // const [toggleState, setToggleState] = useState(1);
-
-    // const toggleTab = (index) => {
-    //     setToggleState(index);
-    // };
-
   return (
     <section className="qualification section" id="qualification">
         <h2 className="section__title">Education</h2>
