@@ -30,7 +30,7 @@ const Data_Analytics = () => {
 
                   <div>
                     <h3 className="skills_name">Tableau</h3>
-                    <span className="skills__level">Basic</span>
+                    <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
                 
@@ -38,7 +38,7 @@ const Data_Analytics = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Tensorflow</h3>
+                    <h3 className="skills_name">Sci-Kit Learn</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -56,7 +56,8 @@ const Data_Analytics = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">NLP</h3>
+                    <h3 className="skills_name">Matplot/
+                      Seaborn</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -76,7 +77,8 @@ const Data_Analytics = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Numpy/Pandas</h3>
+                    <h3 className="skills_name">NumPy/
+                      Pandas</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -85,7 +87,7 @@ const Data_Analytics = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Matplot/Seaborn</h3>
+                    <h3 className="skills_name">Power BI</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -94,7 +96,7 @@ const Data_Analytics = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Sci-Kit Learn</h3>
+                    <h3 className="skills_name">Tensorflow</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -112,7 +114,7 @@ const Data_Analytics = () => {
                   <i class='bx bx-badge-check' ></i>
 
                   <div>
-                    <h3 className="skills_name">Computer Vision</h3>
+                    <h3 className="skills_name">NLP</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>

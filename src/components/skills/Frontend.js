@@ -3,7 +3,7 @@ import React from 'react'
 const Frontend = () => {
   return (
     <div className="skills__content"> 
-        <h3 className="skills__title">Web Developent and Programming</h3>
+        <h3 className="skills__title">Web Development and Programming</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -30,7 +30,7 @@ const Frontend = () => {
 
                   <div>
                     <h3 className="skills_name">JavaScript</h3>
-                    <span className="skills__level">Basic</span>
+                    <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
 
@@ -68,15 +68,6 @@ const Frontend = () => {
 
                   <div>
                     <h3 className="skills_name">React</h3>
-                    <span className="skills__level">Basic</span>
-                  </div>
-                </div>
-
-                <div className="skills__data">
-                  <i class='bx bx-badge-check' ></i>
-
-                  <div>
-                    <h3 className="skills_name">TailwindCSS</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -86,6 +77,15 @@ const Frontend = () => {
 
                   <div>
                     <h3 className="skills_name">Linux</h3>
+                    <span className="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div className="skills__data">
+                  <i class='bx bx-badge-check' ></i>
+
+                  <div>
+                    <h3 className="skills_name">TypeScript</h3>
                     <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ const Frontend = () => {
 
                   <div>
                     <h3 className="skills_name">Docker</h3>
-                    <span className="skills__level">Basic</span>
+                    <span className="skills__level">Intermediate</span>
                   </div>
                 </div>
 
